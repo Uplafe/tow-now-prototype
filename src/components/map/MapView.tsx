@@ -3,7 +3,7 @@ import { useEffect, useRef, useCallback } from 'react'
 import mapboxgl from 'mapbox-gl'
 import { DEFAULT_CENTER } from '@/lib/mockData'
 
-mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN || 'pk.eyJ1IjoidXBsYWZlIiwiYSI6ImNtbXJ2cnZvODFjN2gycXNkNWdoZjV3OGsifQ.5Eb_dTwzOWZDz1vz5zWceg'
+mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN!
 
 interface MapViewProps {
   center?: [number, number]
