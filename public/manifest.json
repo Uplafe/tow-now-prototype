@@ -1,0 +1,25 @@
+{
+  "name": "TowNow – On-Demand Towing",
+  "short_name": "TowNow",
+  "description": "On-demand tow truck and roadside assistance",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030632",
+  "theme_color": "#0d1258",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "/icons/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "/icons/icon-512.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable" }
+  ],
+  "screenshots": [],
+  "categories": ["utilities", "travel"],
+  "shortcuts": [
+    {
+      "name": "Request Tow",
+      "short_name": "Request",
+      "description": "Quickly request a tow truck",
+      "url": "/customer",
+      "icons": [{ "src": "/icons/icon-96.png", "sizes": "96x96" }]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "locations": {
+      "$driverId": {
+        ".read": "auth != null",
+        ".write": "auth != null && auth.uid == $driverId"
+      }
+    },
+    "driverStatus": {
+      "$driverId": {
+        ".read": "auth != null",
+        ".write": "auth != null && auth.uid == $driverId"
+      }
+    }
+  }
+}

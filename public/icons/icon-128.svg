@@ -1,0 +1,6 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="28.16" fill="#0d1258"/>
+  <rect x="12.8" y="12.8" width="102.4" height="102.4" rx="23.04" fill="#1a237e"/>
+  <text x="64" y="83.2" text-anchor="middle" font-size="57.6" font-family="serif">🚛</text>
+  <text x="64" y="112.64" text-anchor="middle" font-size="12.8" font-family="sans-serif" fill="#3b82f6" font-weight="bold">TowNow</text>
+</svg>
